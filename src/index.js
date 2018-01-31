@@ -9,7 +9,7 @@ const getDefer = () => {
   return deferred;
 };
 
-const base = (method = 'GET', url = '/', headers = {}, data = false) => {
+const base = (method = 'GET', url = '/', headers = {}, data = false, timeout = 5000) => {
   const deferred = getDefer();
   let request = new XMLHttpRequest();
   request.open(method, url, true);
@@ -27,6 +27,7 @@ const base = (method = 'GET', url = '/', headers = {}, data = false) => {
       }
     }
   };
+  request.timeout = timeout;
 
   if (data) {
     request.send(data);
@@ -39,5 +40,7 @@ const base = (method = 'GET', url = '/', headers = {}, data = false) => {
 };
 
 methods.forEach((method) => {
-  exports[method] = ({ url, headers, data }) => base(method.toUpperCase(), url, headers, data);
+  exports[method] = ({
+    url, headers, data, timeout
+  }) => base(method.toUpperCase(), url, headers, data, timeout);
 });
