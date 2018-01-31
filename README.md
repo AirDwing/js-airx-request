@@ -2,7 +2,7 @@
 
 A minimum request package for browser.
 
-[![github](https://img.shields.io/github/followers/willin.svg?style=social&label=Follow)](https://github.com/willin) [![npm](https://img.shields.io/npm/v/@airx/request.svg)](https://npmjs.org/package/@airx/request) [![npm](https://img.shields.io/npm/dt/@airx/request.svg)](https://npmjs.org/package/@airx/request)
+[![github](https://img.shields.io/github/followers/willin.svg?style=social&label=Follow)](https://github.com/willin) [![npm](https://img.shields.io/npm/v/@airx/request.svg)](https://npmjs.org/package/@airx/request) [![npm](https://img.shields.io/npm/dt/@airx/request.svg)](https://npmjs.org/package/@airx/request) [![codebeat badge](https://codebeat.co/badges/52228e56-dbe5-4fb9-b962-c84fd95fe8a3)](https://codebeat.co/projects/github-com-airdwing-js-airx-request-master)
 
 ## Usage
 
