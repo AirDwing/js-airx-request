@@ -1,0 +1,29 @@
+{
+  "name": "@airx/request",
+  "version": "0.0.1",
+  "description": "A minimum request package for browser.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "parcel example/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AirDwing/js-airx-request.git"
+  },
+  "keywords": [
+    "request",
+    "sdk"
+  ],
+  "author": "Willin Wang",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/AirDwing/js-airx-request/issues"
+  },
+  "homepage": "https://github.com/AirDwing/js-airx-request#readme",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-dwing": "^1.2.0",
+    "eslint-plugin-html": "^4.0.2",
+    "parcel-bundler": "^1.5.1"
+  }
+}
